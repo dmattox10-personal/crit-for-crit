@@ -1,0 +1,43 @@
+{
+  "name": "crit-for-crit",
+  "version": "0.1.0",
+  "main": "./public/main.js",
+  "private": false,
+  "homepage": ".",
+  "node-remote": "http://localhost:3000",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "nwjs-reactbuild": "nw .",
+    "prenwjs-reactbuild": "yarn build",
+    "nwjs-pack": "build --tasks win-x86,win-x64,linux-x86,linux-x64,mac-x64 --mirror https://dl.nwjs.io/ .",
+    "prenwjs-pack": "yarn build",
+    "nwjs-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && NWJS_START_URL=http://localhost:3000 nw .\" "  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nwjs-builder-phoenix": "^1.15.0",
+    "wait-on": "^3.3.0"
+  }
+}
