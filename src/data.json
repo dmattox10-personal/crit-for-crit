@@ -1,0 +1,1647 @@
+{
+    "Beauregard": 
+    {
+        "Class": "",
+        "Race": "",
+        "Alignment": "",
+        "Background": "",
+        "Player": "",
+        "Stats": [
+            {
+                "Level": "2",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "3",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "4",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "5",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "6",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "7",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "8",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "9",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "10",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Caleb":
+    {
+        "Class": "",
+        "Race": "",
+        "Alignment": "",
+        "Background": "",
+        "Player": "",
+        "Stats": [
+            {
+                "Level": "2",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "3",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "4",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "5",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "6",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "7",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "8",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "9",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "10",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Caduceus":
+    {
+        "Class": "",
+        "Race": "",
+        "Alignment": "",
+        "Background": "",
+        "Player": "",
+        "Stats": [
+            {
+                "Level": "2",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "3",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "4",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "5",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "6",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "7",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "8",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "9",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "10",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Fjord":
+    {
+        "Class": "",
+        "Race": "",
+        "Alignment": "",
+        "Background": "",
+        "Player": "",
+        "Stats": [
+            {
+                "Level": "2",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "3",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "4",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "5",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "6",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "7",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "8",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "9",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "10",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Jester":
+    {
+        "Class": "",
+        "Race": "",
+        "Alignment": "",
+        "Background": "",
+        "Player": "",
+        "Stats": [
+            {
+                "Level": "2",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "3",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "4",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "5",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "6",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "7",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "8",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "9",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "10",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Nott":
+    {
+        "Class": "",
+        "Race": "",
+        "Alignment": "",
+        "Background": "",
+        "Player": "",
+        "Stats": [
+            {
+                "Level": "2",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "3",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "4",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "5",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "6",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "7",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "8",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "9",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "10",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Yasha":
+    {
+        "Class": "",
+        "Race": "",
+        "Alignment": "",
+        "Background": "",
+        "Player": "",
+        "Stats": [
+            {
+                "Level": "2",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "3",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "4",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "5",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "6",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "7",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "8",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "9",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {
+                "Level": "10",
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            }
+        ]
+    }
+}
