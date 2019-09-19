@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Main from './components/Main'
 import Arena from './components/Arena'
 
-import logo from './logo.svg'
 import './App.css'
 
 function App() {
