@@ -1,14 +1,49 @@
-[
+[ 
     {
-        "Character": "",
-        "Class": "",
-        "Race": "",
-        "Alignment": "",
-        "Background": "",
-        "Player": "",
+        "Name": "Beauregard",
+        "Race": "Human",
+        "Alignment": "???",
+        "Background": "Criminal (Spy)",
+        "Player": "Marisha Ray",
+        "Start": 2,
         "Stats": [
             {
-                "Level": "2",
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 2
+                    }
+                ],
+                "HP": "",
+                "Str": "",
+                "StrMod": "",
+                "Dex": "",
+                "DexMod": "",
+                "Con": "",
+                "ConMod": "",
+                "Int": "",
+                "IntMod": "",
+                "Wis": "",
+                "WisMod": "",
+                "Cha": "",
+                "ChaMod": "",
+                "AC": "",
+                "Initiative": "",
+                "Attacks": [
+                    {
+                        "Name": "",
+                        "Bonus": "",
+                        "Damage": ""
+                    }
+                ]
+            },
+            {   
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 3
+                    }
+                ],
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -33,7 +68,12 @@
                 ]
             },
             {
-                "Level": "3",
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 4
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -58,7 +98,12 @@
                 ]
             },
             {
-                "Level": "4",
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 5
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -83,7 +128,12 @@
                 ]
             },
             {
-                "Level": "5",
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 6
+                    }
+                ],
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -108,7 +158,12 @@
                 ]
             },
             {
-                "Level": "6",
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 7
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -133,7 +188,12 @@
                 ]
             },
             {
-                "Level": "7",
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 8
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -158,7 +218,12 @@
                 ]
             },
             {
-                "Level": "8",
+                "Class": [
+                    {
+                        "Name": "Monk",
+                        "Level": 9
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -183,32 +248,12 @@
                 ]
             },
             {
-                "Level": "9",
-                "HP": "",
-                "Str": "",
-                "StrMod": "",
-                "Dex": "",
-                "DexMod": "",
-                "Con": "",
-                "ConMod": "",
-                "Int": "",
-                "IntMod": "",
-                "Wis": "",
-                "WisMod": "",
-                "Cha": "",
-                "ChaMod": "",
-                "AC": "",
-                "Initiative": "",
-                "Attacks": [
+                "Class": [
                     {
-                        "Name": "",
-                        "Bonus": "",
-                        "Damage": ""
+                        "Name": "Monk",
+                        "Level": 10
                     }
-                ]
-            },
-            {
-                "Level": "10",
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -235,15 +280,20 @@
         ]
     },
     {
-        "Character": "",
-        "Class": "",
-        "Race": "",
-        "Alignment": "",
-        "Background": "",
-        "Player": "",
+        "Name": "Caleb",
+        "Race": "Human",
+        "Alignment": "True Neutral",
+        "Background": "???",
+        "Player": "Liam O'Brien",
+        "Start": 2,
         "Stats": [
             {
-                "Level": "2",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 2
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -268,7 +318,12 @@
                 ]
             },
             {
-                "Level": "3",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 3
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -293,7 +348,12 @@
                 ]
             },
             {
-                "Level": "4",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 4
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -318,7 +378,12 @@
                 ]
             },
             {
-                "Level": "5",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 5
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -343,7 +408,12 @@
                 ]
             },
             {
-                "Level": "6",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 6
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -368,7 +438,12 @@
                 ]
             },
             {
-                "Level": "7",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 7
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -393,7 +468,12 @@
                 ]
             },
             {
-                "Level": "8",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 8
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -418,7 +498,12 @@
                 ]
             },
             {
-                "Level": "9",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 9
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -443,7 +528,12 @@
                 ]
             },
             {
-                "Level": "10",
+                "Class": [
+                    {
+                        "Name": "Wizard",
+                        "Level": 10
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -470,15 +560,20 @@
         ]
     },
     {
-        "Character": "",
-        "Class": "",
-        "Race": "",
-        "Alignment": "",
-        "Background": "",
-        "Player": "",
+        "Name": "Caduceus",
+        "Race": "Firbolg",
+        "Alignment": "???",
+        "Background": "???",
+        "Player": "Taliesin Jaffe",
+        "Start": 5,
         "Stats": [
             {
-                "Level": "2",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 2
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -503,7 +598,12 @@
                 ]
             },
             {
-                "Level": "3",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 3
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -528,7 +628,12 @@
                 ]
             },
             {
-                "Level": "4",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 4
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -553,7 +658,12 @@
                 ]
             },
             {
-                "Level": "5",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 5
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -578,7 +688,12 @@
                 ]
             },
             {
-                "Level": "6",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 6
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -603,7 +718,12 @@
                 ]
             },
             {
-                "Level": "7",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 7
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -628,7 +748,12 @@
                 ]
             },
             {
-                "Level": "8",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 8
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -653,7 +778,12 @@
                 ]
             },
             {
-                "Level": "9",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 9
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -678,7 +808,12 @@
                 ]
             },
             {
-                "Level": "10",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 10
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -705,15 +840,20 @@
         ]
     },
     {
-        "Character": "",
-        "Class": "",
-        "Race": "",
-        "Alignment": "",
-        "Background": "",
-        "Player": "",
+        "Name": "Fjord",
+        "Race": "Half-Orc",
+        "Alignment": "???",
+        "Background": "Sailor",
+        "Player": "Travis Willingham",
+        "Start": 2,
         "Stats": [
             {
-                "Level": "2",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 2
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -738,7 +878,12 @@
                 ]
             },
             {
-                "Level": "3",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 3
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -763,7 +908,12 @@
                 ]
             },
             {
-                "Level": "4",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 4
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -788,7 +938,12 @@
                 ]
             },
             {
-                "Level": "5",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 5
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -813,7 +968,12 @@
                 ]
             },
             {
-                "Level": "6",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 6
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -838,7 +998,12 @@
                 ]
             },
             {
-                "Level": "7",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 7
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -863,7 +1028,12 @@
                 ]
             },
             {
-                "Level": "8",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 8
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -888,7 +1058,12 @@
                 ]
             },
             {
-                "Level": "9",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 9
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -913,7 +1088,16 @@
                 ]
             },
             {
-                "Level": "10",
+                "Class": [
+                    {
+                        "Name": "Warlock",
+                        "Level": 9
+                    },
+                    {
+                        "Name": "Paladin",
+                        "Level": 1
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -940,15 +1124,20 @@
         ]
     },
     {
-        "Character": "",
-        "Class": "",
-        "Race": "",
-        "Alignment": "",
-        "Background": "",
-        "Player": "",
+        "Name": "Jester",
+        "Race": "Tiefling",
+        "Alignment": "Chaotic Neutral",
+        "Background": "Charlatan",
+        "Player": "Laura Bailey",
+        "Start": 2,
         "Stats": [
             {
-                "Level": "2",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 2
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -973,7 +1162,12 @@
                 ]
             },
             {
-                "Level": "3",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 3
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -998,7 +1192,12 @@
                 ]
             },
             {
-                "Level": "4",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 4
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1023,7 +1222,12 @@
                 ]
             },
             {
-                "Level": "5",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 5
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1048,7 +1252,12 @@
                 ]
             },
             {
-                "Level": "6",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 6
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1073,7 +1282,12 @@
                 ]
             },
             {
-                "Level": "7",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 7
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1098,7 +1312,12 @@
                 ]
             },
             {
-                "Level": "8",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 8
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1123,7 +1342,12 @@
                 ]
             },
             {
-                "Level": "9",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 9
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1148,7 +1372,12 @@
                 ]
             },
             {
-                "Level": "10",
+                "Class": [
+                    {
+                        "Name": "Cleric",
+                        "Level": 10
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1175,15 +1404,20 @@
         ]
     },
     {
-        "Character": "",
-        "Class": "",
-        "Race": "",
-        "Alignment": "",
-        "Background": "",
-        "Player": "",
+        "Name": "Nott",
+        "Race": "Goblin",
+        "Alignment": "???",
+        "Background": "???",
+        "Player": "Sam Riegel",
+        "Start": 2,
         "Stats": [
             {
-                "Level": "2",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 2
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1208,7 +1442,12 @@
                 ]
             },
             {
-                "Level": "3",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 3
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1233,7 +1472,12 @@
                 ]
             },
             {
-                "Level": "4",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 4
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1258,7 +1502,12 @@
                 ]
             },
             {
-                "Level": "5",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 5
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1283,7 +1532,12 @@
                 ]
             },
             {
-                "Level": "6",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 6
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1308,7 +1562,12 @@
                 ]
             },
             {
-                "Level": "7",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 7
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1333,7 +1592,12 @@
                 ]
             },
             {
-                "Level": "8",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 8
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1358,7 +1622,12 @@
                 ]
             },
             {
-                "Level": "9",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 9
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1383,7 +1652,12 @@
                 ]
             },
             {
-                "Level": "10",
+                "Class": [
+                    {
+                        "Name": "Rogue",
+                        "Level": 10
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1410,15 +1684,20 @@
         ]
     },
     {
-        "Character": "",
-        "Class": "",
-        "Race": "",
-        "Alignment": "",
-        "Background": "",
-        "Player": "",
+        "Name":"Yasha",
+        "Race": "Aasimar",
+        "Alignment": "???",
+        "Background": "???",
+        "Player": "Ashley Johnson",
+        "Start": 2,
         "Stats": [
             {
-                "Level": "2",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 2
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1443,7 +1722,12 @@
                 ]
             },
             {
-                "Level": "3",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 3
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1468,7 +1752,12 @@
                 ]
             },
             {
-                "Level": "4",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 4
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1493,7 +1782,12 @@
                 ]
             },
             {
-                "Level": "5",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 5
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1518,7 +1812,12 @@
                 ]
             },
             {
-                "Level": "6",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 6
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1543,7 +1842,12 @@
                 ]
             },
             {
-                "Level": "7",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 7
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1568,7 +1872,12 @@
                 ]
             },
             {
-                "Level": "8",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 8
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1593,7 +1902,12 @@
                 ]
             },
             {
-                "Level": "9",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 9
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
@@ -1618,7 +1932,12 @@
                 ]
             },
             {
-                "Level": "10",
+                "Class": [
+                    {
+                        "Name": "Barbarian",
+                        "Level": 10
+                    }
+                ],                
                 "HP": "",
                 "Str": "",
                 "StrMod": "",
