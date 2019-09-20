@@ -10,7 +10,7 @@ const imgContainerStyles = {
     backgroundSize: "cover"
   }
   const imgStyles = {
-    width: 300,
+    width: 200,
     borderTopRightRadius: 35,
     borderTopLeftRadius: 35
   }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
 const avatarContainerStyles = {
-    width: "150px",
-    height: "150px",
+    width: "100px",
+    height: "100px",
     zIndex: "9",
     position: "relative",
     top: "-85px",
-    left: "65px",
+    left: "40px",
     right: "0",
     margin: "0 auto",
     border: "10px solid #fff",

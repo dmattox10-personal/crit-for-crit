@@ -6,16 +6,16 @@ import CardTitle from './CardTitle'
 import CardBio from './CardBio'
 
 const cardContainerStyles = {
-    width: "300px",
-    height: "500px",
+    width: "200px",
+    height: "340px",
     background: "#fff",
     borderRadius: 35,
     boxShadow: "1px 1px 35px #444"
 }
 
 const cardBackStyles = {
-    height: 500,
-    width: 300,
+    height: 340,
+    width: 200,
     position: "absolute",
     top: "0",
     bottom: "0",
@@ -34,7 +34,6 @@ const cardBackStyles = {
     width: "100%",
     borderRadius: 35,
     position: "absolute"
-    
   }
 
 
