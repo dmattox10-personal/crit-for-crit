@@ -26,7 +26,7 @@ class CardTitle extends React.Component {
     render(){
       return (
         <div className="titleDiv">
-          <h1 id={this.props.targetId} style={titleStyles} className="title">{this.props.title}</h1>
+          <h1 id={this.props.targetId} style={titleStyles} className="card-title">{this.props.title}</h1>
           <h4 style={subTitleStyles} className="subTitle">{this.props.subTitle}</h4>
         </div>
       )
