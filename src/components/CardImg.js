@@ -14,8 +14,8 @@ const imgContainerStyles = {
     borderTopRightRadius: 35,
     borderTopLeftRadius: 35
   }
-  
-class CardImg extends React.Component {
+
+class CardImg extends Component {
     constructor(props){
       super(props);
     }

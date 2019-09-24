@@ -18,8 +18,8 @@ const titleStyles = {
     fontWeight: "100",
     color: "#888"
   }
-  
-class CardTitle extends React.Component {
+
+class CardTitle extends Component {
     constructor(props){
       super(props);
     }
