@@ -136,7 +136,7 @@ li {
   left:0;
   right:0;
   margin:auto;
-  box-shadow: 0 -0.5px 0 4px #00ff00;
+  box-shadow: 0 -0.5px 0 4px #00ffff;
 }
 /* hide back of pane during swap */
 .cardFront, .cardBack {

@@ -20,65 +20,64 @@ class CardContainer extends Component {
       super(props)
       this.state = {
         fighters: props.fighters,
-        selected: [
+        cards: [
           {
-            active: false
+            active: false,
+            index: '0'
           },
           {
-            active: false
+            active: false,
+            index: '1'
           },
           {
-            active: false
+            active: false,
+            index: '2'
           },
           {
-            active: false
+            active: false,
+            index: '3'
           },
           {
-            active: false
+            active: false,
+            index: '4'
           },
           {
-            active: false
+            active: false,
+            index: '5'
           },
           {
-            active: false
+            active: false,
+            index: '6'
           }
-        ]
+        ],
+        selection: []
       }
-      this.addFighter = this.addFighter.bind(this)
     }
 
-    addFighter(id) {
-      const fighters = this.state
-      console.log(fighters[id].Name)
-    }
     render(){
-      const { fighters, selected } = this.state
+      const { fighters, cards } = this.state
       return (
        <div style={bodyStyles} className="body">
           <h1 style={headerStyles} className="header"></h1>
-
           <section className='grid'>
             <aside className='aspect-ratio'></aside>
             <article>
               <ul className='grid absolute-fill'>
                 { fighters.map((fighter, id) => 
                 <div onClick={() => {
-                const { selected } = this.state
-                selected[id].active = !selected[id].active
+                const { cards } = this.state
+                cards[id].active = !cards[id].active
                 this.setState({
-                  selected
+                  cards
                 })
                 }
                 } key={ id }>
-                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ selected[id].active }/>
+                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ cards[id].active }/>
                 </div>  
                   )}
               </ul>
-              
             </article>
-            
           </section>
-          
        </div>
       )
     }
