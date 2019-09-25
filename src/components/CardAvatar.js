@@ -27,14 +27,13 @@ const avatarContainerStyles = {
     borderRadius: "50%"
   }
   
-class CardAvatar extends React.Component {
-    constructor(props){
-      super(props);
-    }
+class CardAvatar extends Component {
+    
     render(){
+      const { name } = this.props
       return (
         <div style={avatarContainerStyles} className="infoContainer">
-          <img src={this.props.avatarSrc} style={avatarImgStyles} />
+          <img src={this.props.avatarSrc} style={avatarImgStyles} alt={ 'Face Avatar of Character ' + name}/>
         </div>
       )
     }

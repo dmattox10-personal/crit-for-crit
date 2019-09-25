@@ -10,10 +10,8 @@ const bioContainerStyles = {
     textAlign: "center"
   }
   
-class CardBio extends React.Component {
-    constructor(props){
-      super(props);
-    }
+class CardBio extends Component {
+    
     render(){
       return (
         <div style={bioContainerStyles} className="bioContainer">

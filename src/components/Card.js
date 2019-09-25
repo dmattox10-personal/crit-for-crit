@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import CardImg from './CardImg'
 import CardAvatar from './CardAvatar'
 import CardTitle from './CardTitle'
-import CardBio from './CardBio'
-import { stat } from 'fs'
 
 const cardContainerStyles = {
     width: "200px",
@@ -40,24 +38,19 @@ const cardBackStyles = {
 
 
 class Card extends Component {
-    constructor(props){
-      super(props)
-      
-    }
 
     render(){
-      const { name, stats, id, race, selected } = this.props
+      const { name, stats, race, selected } = this.props
       return (
           <div className="flipperContainer">
             <div className={selected ? "flipper-selected" : "flipper"}>
                 <div style={cardBackStyles} className="cardFront">
-                <img className="cardBackImg" style={cardBackImgStyles} src={this.props.cardBackImgSrc}/>
+                <img className="cardBackImg" style={cardBackImgStyles} src={this.props.cardBackImgSrc} alt={ 'Full size image of character ' + name }/>
               </div>
                <div style={cardContainerStyles} className="cardBack cardContainer">
-                   <CardImg imgSrc={this.props.imgSrc} />
-                   <CardAvatar avatarSrc={this.props.avatarSrc} />
+                   <CardImg imgSrc={this.props.imgSrc} name={ name } />
+                   <CardAvatar avatarSrc={this.props.avatarSrc} name={ name } />
                    <CardTitle title={ name } subTitle={ race + ' ' + stats[stats.length - 1].Class.map(charClass => charClass.Name).join(", ") } />
-                   {/*<CardBio bio={this.state.bio} />*/}
                </div>
               
              </div>

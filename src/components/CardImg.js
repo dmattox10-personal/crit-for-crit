@@ -16,13 +16,12 @@ const imgContainerStyles = {
   }
 
 class CardImg extends Component {
-    constructor(props){
-      super(props);
-    }
+    
     render(){
+      const { name } = this.props
       return (
          <div style={imgContainerStyles} className="imgContainer">
-              <img src={this.props.imgSrc} className="img" style={imgStyles} />
+              <img src={this.props.imgSrc} className="img" style={imgStyles} alt={ 'Header image above avatar of Character ' + name }/>
          </div>
       )
     }
