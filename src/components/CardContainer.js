@@ -20,7 +20,29 @@ class CardContainer extends Component {
       super(props)
       this.state = {
         fighters: props.fighters,
-        selected: []
+        selected: [
+          {
+            active: false
+          },
+          {
+            active: false
+          },
+          {
+            active: false
+          },
+          {
+            active: false
+          },
+          {
+            active: false
+          },
+          {
+            active: false
+          },
+          {
+            active: false
+          }
+        ]
       }
       this.addFighter = this.addFighter.bind(this)
     }
@@ -40,13 +62,23 @@ class CardContainer extends Component {
             <article>
               <ul className='grid absolute-fill'>
                 { fighters.map((fighter, id) => 
-                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } onClick={() => this.setState(prevState => ({
-                  selected: [...prevState.selected, id]
-                }))}/>
+                <div onClick={() => {
+                const { selected } = this.state
+                selected[id].active = !selected[id].active
+                this.setState({
+                  selected
+                })
+                }
+                } key={ id }>
+                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ selected[id].active }/>
+                </div>  
                   )}
               </ul>
+              
             </article>
+            
           </section>
+          
        </div>
       )
     }

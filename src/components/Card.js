@@ -46,10 +46,10 @@ class Card extends Component {
     }
 
     render(){
-      const { name, stats, id, race } = this.props
+      const { name, stats, id, race, selected } = this.props
       return (
           <div className="flipperContainer">
-            <div className="flipper">
+            <div className={selected ? "flipper-selected" : "flipper"}>
                 <div style={cardBackStyles} className="cardFront">
                 <img className="cardBackImg" style={cardBackImgStyles} src={this.props.cardBackImgSrc}/>
               </div>
