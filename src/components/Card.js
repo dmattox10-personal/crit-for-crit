@@ -46,7 +46,7 @@ class Card extends Component {
     }
 
     render(){
-      const { name, stats, id } = this.props
+      const { name, stats, id, race } = this.props
       return (
           <div className="flipperContainer">
             <div className="flipper">
@@ -56,7 +56,7 @@ class Card extends Component {
                <div style={cardContainerStyles} className="cardBack cardContainer">
                    <CardImg imgSrc={this.props.imgSrc} />
                    <CardAvatar avatarSrc={this.props.avatarSrc} />
-                   <CardTitle title={ name } subTitle={ stats[stats.length - 1].Class.map(charClass => charClass.Name).join(", ") } />
+                   <CardTitle title={ name } subTitle={ race + ' ' + stats[stats.length - 1].Class.map(charClass => charClass.Name).join(", ") } />
                    {/*<CardBio bio={this.state.bio} />*/}
                </div>
               
