@@ -1,6 +1,7 @@
 [ 
     {
         "Name": "Beauregard",
+        "Full": "Beauregard Lionett",
         "Race": "Human",
         "Alignment": "???",
         "Background": "Criminal (Spy)",
@@ -281,6 +282,7 @@
     },
     {
         "Name": "Caleb",
+        "Full": "Caleb Widogast",
         "Race": "Human",
         "Alignment": "True Neutral",
         "Background": "???",
@@ -561,6 +563,7 @@
     },
     {
         "Name": "Caduceus",
+        "Full": "Caduceus Clay",
         "Race": "Firbolg",
         "Alignment": "???",
         "Background": "???",
@@ -841,6 +844,7 @@
     },
     {
         "Name": "Fjord",
+        "Full": "Fjord",
         "Race": "Half-Orc",
         "Alignment": "???",
         "Background": "Sailor",
@@ -1125,6 +1129,7 @@
     },
     {
         "Name": "Jester",
+        "Full": "Jester Lavorre",
         "Race": "Tiefling",
         "Alignment": "Chaotic Neutral",
         "Background": "Charlatan",
@@ -1405,6 +1410,7 @@
     },
     {
         "Name": "Nott",
+        "Full": "Nott",
         "Race": "Goblin",
         "Alignment": "???",
         "Background": "???",
@@ -1684,7 +1690,8 @@
         ]
     },
     {
-        "Name":"Yasha",
+        "Name": "Yasha",
+        "Full": "Yasha Nydoorin",
         "Race": "Aasimar",
         "Alignment": "???",
         "Background": "???",

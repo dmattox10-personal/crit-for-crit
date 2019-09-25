@@ -56,7 +56,7 @@ class Card extends Component {
                <div style={cardContainerStyles} className="cardBack cardContainer">
                    <CardImg imgSrc={this.props.imgSrc} />
                    <CardAvatar avatarSrc={this.props.avatarSrc} />
-                   <CardTitle title={ name } subTitle={ stats[stats.length - 1].Class.map(charClass => charClass.Name) } />
+                   <CardTitle title={ name } subTitle={ stats[stats.length - 1].Class.map(charClass => charClass.Name).join(", ") } />
                    {/*<CardBio bio={this.state.bio} />*/}
                </div>
               

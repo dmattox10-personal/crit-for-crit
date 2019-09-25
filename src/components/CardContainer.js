@@ -33,7 +33,7 @@ class CardContainer extends Component {
             <article>
               <ul className='grid absolute-fill'>
                 { fighters.map((fighter, id) => 
-                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Name } stats={ fighter.Name } key={ id } id={ id } stats={ fighter.Stats }/>
+                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } stats={ fighter.Name } key={ id } id={ id } stats={ fighter.Stats }/>
                   )}
               </ul>
             </article>
