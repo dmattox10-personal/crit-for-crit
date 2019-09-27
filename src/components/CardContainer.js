@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { addFighter } from '../redux/actions/fighterActions'
+
 import Card from './Card'
 import List from './List'
 
@@ -54,8 +57,14 @@ class CardContainer extends Component {
       }
     }
     
+    componentWillMount() {
+      this.props.addFighter()
+    }
+
     render(){
-      const { fighters, cards } = this.state
+      //const { fighters, cards } = this.state
+      const { cards } = this.state
+      const { fighters } = this.props.fighters
       let active 
       return (
        <div style={bodyStyles} className="body">
@@ -83,4 +92,9 @@ class CardContainer extends Component {
     }
   }
 
-  export default CardContainer
+const mapStateToProps = (state) => ({
+    fighters: state.fighters
+})
+
+//export default CardContainer
+export default connect(mapStateToProps, { addFighter })(CardContainer)

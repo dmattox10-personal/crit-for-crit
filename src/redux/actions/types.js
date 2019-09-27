@@ -1,0 +1,2 @@
+export const ADD_FIGHTER = 'ADD_FIGHTER'
+export const QUEUE_FIGHTER = 'QUEUE_FIGHTER'

@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-
+import { Provider } from 'react-redux'
+import store from './redux/store'
 
 import Main from './components/Main'
 import Arena from './components/Arena'
@@ -9,12 +10,14 @@ import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Route exact path='/' component={ Main } />
-        <Route exact path='/fight' component={ Arena } />
-      </Router>
-    </div>
+    <Provider store={ store }>
+      <div className="App">
+        <Router>
+          <Route exact path='/' component={ Main } />
+          <Route exact path='/fight' component={ Arena } />
+        </Router>
+      </div>
+    </Provider>
   )
 }
 
