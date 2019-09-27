@@ -24,9 +24,9 @@ const ReadyCard = props => {
     <div>
         <CardButton 
           imgSrc={'./images/headers/placeholder.gif'} 
-          avatarSrc={'./images/avatars/check.jpg'} 
-          cardBackImgSrc={'./images/backs/question.jpg' } 
-          name='Select Two Fighters'
+          avatarSrc={'./images/avatars/Check.png'} 
+          cardBackImgSrc={'./images/backs/Fire.jpg' } 
+          name='Click to Fight!'
         />
     </div>
   )
@@ -36,9 +36,9 @@ const WaitCard = props => {
     <div>
       <CardButton 
           imgSrc={'./images/headers/placeholder.gif'} 
-          avatarSrc={'./images/avatars/x.jpg'} 
-          cardBackImgSrc={'./images/backs/fire.jpg' } 
-          name='Click to Fight!'
+          avatarSrc={'./images/avatars/X.png'} 
+          cardBackImgSrc={'./images/backs/Question.png' } 
+          name='Select Two Fighters.'
         />
     </div>
   )
@@ -65,7 +65,7 @@ class CardContainer extends Component {
                 <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ cards[id].active } />
                 </div>  
                   )}
-                {ready === 2 ? <WaitCard/> : <ReadyCard/>}
+                {ready === 2 ? <ReadyCard/> : <WaitCard/>}
               </ul>
             </article>
           </section>
