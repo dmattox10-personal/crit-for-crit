@@ -1,4 +1,4 @@
-import { ADD_FIGHTER, QUEUE_FIGHTER, GET_CARDS, SETUP } from '../actions/types'
+import { QUEUE_FIGHTER, SETUP } from '../actions/types'
 
 const initialState = {
     fighters: [],
@@ -15,19 +15,23 @@ export default function(state = initialState, action) {
                 cards: action.payload.cards,
                 fighters: action.payload.fighters
             }
-        case ADD_FIGHTER:
-            return {
-                ...state,
-                fighters: action.payload
-            }
         case QUEUE_FIGHTER:
-            return {
+                return {
+                    ...state,
+                    cards: state.cards.map((card, index) => {
+                    // Find the item with the matching id
+                    if(card.index == action.payload) {
+                      // Return a new object
+                      return {
+                        ...card,  // copy the existing item
+                        active: !card.active  // replace the email addr
+                      }
+                    }
                 
-            }
-        case GET_CARDS:
-            return {
-                ...state,
-                cards: action.payload
+                    // Leave every other item unchanged
+                    return card
+                  }), 
+                  fighters: state.fighters
             }
     }
 }

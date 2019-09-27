@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { addFighter, queueFighter, getCards } from '../redux/actions/fighterActions'
+import { queueFighter, setup } from '../redux/actions/fighterActions'
 
 import Card from './Card'
 import List from './List'
@@ -59,8 +59,7 @@ class CardContainer extends Component {
     }
     */
     componentWillMount() {
-      this.props.addFighter()
-      this.props.getCards()
+      this.props.setup()
     }
 
     render(){
@@ -101,4 +100,4 @@ const mapStateToProps = (state) => ({
 })
 
 //export default CardContainer
-export default connect(mapStateToProps, { addFighter, queueFighter, getCards })(CardContainer)
+export default connect(mapStateToProps, { queueFighter, setup })(CardContainer)
