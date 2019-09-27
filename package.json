@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "main": "./public/main.js",
   "private": false,
+  "build": {
+    "nwVersion": "0.14.7"
+  },
   "homepage": ".",
   "node-remote": "http://localhost:3000",
   "dependencies": {
@@ -22,7 +25,8 @@
     "prenwjs-reactbuild": "yarn build",
     "nwjs-pack": "build --tasks win-x86,win-x64,linux-x86,linux-x64,mac-x64 --mirror https://dl.nwjs.io/ .",
     "prenwjs-pack": "yarn build",
-    "nwjs-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && NWJS_START_URL=http://localhost:3000 nw .\" "
+    "nwjs-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && NWJS_START_URL=http://localhost:3000 nw .\" ",
+    "dist": "build --tasks win-x86,win-x64,linux-x86,linux-x64,mac-x64 --mirror https://dl.nwjs.io/ ."
   },
   "eslintConfig": {
     "extends": "react-app"

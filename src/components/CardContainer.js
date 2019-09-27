@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Card from './Card'
+import List from './List'
 
 const bodyStyles = {
     background: "-webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%,red), color-stop(100%,transparent))",
@@ -50,12 +51,12 @@ class CardContainer extends Component {
             index: '6'
           }
         ],
-        selection: []
       }
     }
-
+    
     render(){
       const { fighters, cards } = this.state
+      let active 
       return (
        <div style={bodyStyles} className="body">
           <h1 style={headerStyles} className="header"></h1>
@@ -65,7 +66,6 @@ class CardContainer extends Component {
               <ul className='grid absolute-fill'>
                 { fighters.map((fighter, id) => 
                 <div onClick={() => {
-                const { cards } = this.state
                 cards[id].active = !cards[id].active
                 this.setState({
                   cards
