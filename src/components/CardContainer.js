@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { addFighter } from '../redux/actions/fighterActions'
+import { addFighter, queueFighter, getCards } from '../redux/actions/fighterActions'
 
 import Card from './Card'
 import List from './List'
@@ -20,6 +20,7 @@ const headerStyles = {
 }
 
 class CardContainer extends Component {
+  /*
     constructor(props){
       super(props)
       this.state = {
@@ -56,16 +57,17 @@ class CardContainer extends Component {
         ],
       }
     }
-    
+    */
     componentWillMount() {
       this.props.addFighter()
+      this.props.getCards()
     }
 
     render(){
       //const { fighters, cards } = this.state
-      const { cards } = this.state
-      const { fighters } = this.props.fighters
-      let active 
+      const { fighters, cards } = this.props
+      //const { cards } = this.props.cards
+      //const { cards } = this.props.cards
       return (
        <div style={bodyStyles} className="body">
           <h1 style={headerStyles} className="header"></h1>
@@ -74,14 +76,15 @@ class CardContainer extends Component {
             <article>
               <ul className='grid absolute-fill'>
                 { fighters.map((fighter, id) => 
-                <div onClick={() => {
+                <div onClick={() => this.props.queueFighter(id)}
+                /*onClick={() => {
                 cards[id].active = !cards[id].active
                 this.setState({
                   cards
                 })
                 }
-                } key={ id }>
-                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ cards[id].active }/>
+                }*/ key={ id }>
+                <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ cards[id].active } />
                 </div>  
                   )}
               </ul>
@@ -93,8 +96,9 @@ class CardContainer extends Component {
   }
 
 const mapStateToProps = (state) => ({
-    fighters: state.fighters
+    fighters: state.data.fighters,
+    cards: state.data.cards
 })
 
 //export default CardContainer
-export default connect(mapStateToProps, { addFighter })(CardContainer)
+export default connect(mapStateToProps, { addFighter, queueFighter, getCards })(CardContainer)
