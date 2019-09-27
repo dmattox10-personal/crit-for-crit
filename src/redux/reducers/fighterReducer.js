@@ -16,22 +16,18 @@ export default function(state = initialState, action) {
                 fighters: action.payload.fighters
             }
         case QUEUE_FIGHTER:
-                return {
-                    ...state,
-                    cards: state.cards.map((card, index) => {
-                    // Find the item with the matching id
-                    if(card.index == action.payload) {
-                      // Return a new object
-                      return {
-                        ...card,  // copy the existing item
-                        active: !card.active  // replace the email addr
-                      }
+            return {
+                ...state,
+                cards: state.cards.map((card, index) => {
+                if(card.index === action.payload) {
+                    return {
+                    ...card, 
+                    active: !card.active
                     }
-                
-                    // Leave every other item unchanged
-                    return card
-                  }), 
-                  fighters: state.fighters
+                }
+                return card
+                }), 
+                fighters: state.fighters
             }
     }
 }

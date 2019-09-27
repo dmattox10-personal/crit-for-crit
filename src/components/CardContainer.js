@@ -3,7 +3,8 @@ import { connect } from 'react-redux'
 import { queueFighter, setup } from '../redux/actions/fighterActions'
 
 import Card from './Card'
-import List from './List'
+import CardButton from './CardButton'
+//import List from './List'
 
 const bodyStyles = {
     background: "-webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(50%,red), color-stop(100%,transparent))",
@@ -18,55 +19,40 @@ const headerStyles = {
     textAlign: "center",
     color:"#fff",
 }
-
+const ReadyCard = props => {
+  return(
+    <div>
+        <CardButton 
+          imgSrc={'./images/headers/placeholder.gif'} 
+          avatarSrc={'./images/avatars/check.jpg'} 
+          cardBackImgSrc={'./images/backs/question.jpg' } 
+          name='Select Two Fighters'
+        />
+    </div>
+  )
+}
+const WaitCard = props => {
+  return(
+    <div>
+      <CardButton 
+          imgSrc={'./images/headers/placeholder.gif'} 
+          avatarSrc={'./images/avatars/x.jpg'} 
+          cardBackImgSrc={'./images/backs/fire.jpg' } 
+          name='Click to Fight!'
+        />
+    </div>
+  )
+}
 class CardContainer extends Component {
-  /*
-    constructor(props){
-      super(props)
-      this.state = {
-        fighters: props.fighters,
-        cards: [
-          {
-            active: false,
-            index: '0'
-          },
-          {
-            active: false,
-            index: '1'
-          },
-          {
-            active: false,
-            index: '2'
-          },
-          {
-            active: false,
-            index: '3'
-          },
-          {
-            active: false,
-            index: '4'
-          },
-          {
-            active: false,
-            index: '5'
-          },
-          {
-            active: false,
-            index: '6'
-          }
-        ],
-      }
-    }
-    */
+
     componentWillMount() {
       this.props.setup()
     }
 
     render(){
-      //const { fighters, cards } = this.state
       const { fighters, cards } = this.props
-      //const { cards } = this.props.cards
-      //const { cards } = this.props.cards
+      const selected = cards.filter(card => card.active === true)
+      const ready = selected.length
       return (
        <div style={bodyStyles} className="body">
           <h1 style={headerStyles} className="header"></h1>
@@ -75,17 +61,11 @@ class CardContainer extends Component {
             <article>
               <ul className='grid absolute-fill'>
                 { fighters.map((fighter, id) => 
-                <div onClick={() => this.props.queueFighter(id)}
-                /*onClick={() => {
-                cards[id].active = !cards[id].active
-                this.setState({
-                  cards
-                })
-                }
-                }*/ key={ id }>
+                <div onClick={() => this.props.queueFighter(id)} key={ id }>
                 <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ cards[id].active } />
                 </div>  
                   )}
+                {ready === 2 ? <WaitCard/> : <ReadyCard/>}
               </ul>
             </article>
           </section>
@@ -99,5 +79,4 @@ const mapStateToProps = (state) => ({
     cards: state.data.cards
 })
 
-//export default CardContainer
 export default connect(mapStateToProps, { queueFighter, setup })(CardContainer)
