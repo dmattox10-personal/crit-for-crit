@@ -37,7 +37,7 @@ const WaitCard = props => {
       <CardButton 
           imgSrc={'./images/headers/placeholder.gif'} 
           avatarSrc={'./images/avatars/X.png'} 
-          cardBackImgSrc={'./images/backs/Question.png' } 
+          cardBackImgSrc={'./images/backs/Fire.jpg' } 
           name='Select Two Fighters.'
         />
     </div>
