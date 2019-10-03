@@ -5,6 +5,7 @@ import store from './redux/store'
 
 import Main from './components/Main'
 import Arena from './components/Arena'
+import Staging from './components/Staging'
 
 import './css/app.css'
 import './css/grid.css'
@@ -16,6 +17,7 @@ function App() {
         <Router>
           <Route exact path='/' component={ Main } />
           <Route exact path='/fight' component={ Arena } />
+          <Route exact path='/staging' component={ Staging } /> 
         </Router>
       </div>
     </Provider>

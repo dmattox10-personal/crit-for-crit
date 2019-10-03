@@ -30,9 +30,13 @@ export default function(state = initialState, action) {
                 }), 
                 fighters: state.fighters
             }
+            /*
         case STAGE_FIGHTERS:
             return {
-
+                ...state,
+                cards: action.payload.cards,
+                fighters: action.payload.fighters,
             }
+            */
     }
 }

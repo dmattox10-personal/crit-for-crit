@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { queueFighter, setup } from '../redux/actions/fighterActions'
 
@@ -24,12 +25,14 @@ const headerStyles = {
 const ReadyCard = props => {
   return(
     <div>
+      <Link to='/staging'>
         <CardButton 
           imgSrc={'./images/headers/placeholder.gif'} 
           avatarSrc={'./images/avatars/Check.png'} 
           cardBackImgSrc={'./images/backs/Fire.jpg' } 
           name='Click to Fight!'
         />
+        </Link>
     </div>
   )
 }
@@ -55,8 +58,8 @@ class CardContainer extends Component {
 
     render(){
       const { fighters, cards } = this.props
-      const selected = cards.filter(card => card.active === true)
-      const ready = selected.length
+      const selected = cards.filter(card => card.active === true).length
+      //const ready = selected.length
       return (
        <div style={bodyStyles} className="body">
           <h1 style={headerStyles} className="header"></h1>
@@ -69,7 +72,7 @@ class CardContainer extends Component {
                 <Card imgSrc={'./images/headers/placeholder.gif'} avatarSrc={'./images/avatars/' + fighter.Name + '.jpg'} cardBackImgSrc={'./images/backs/' + fighter.Name + '.jpg' } name={ fighter.Full } race={ fighter.Race } key={ id } id={ id } stats={ fighter.Stats } selected={ cards[id].active } />
                 </div>  
                   )}
-                {ready === 2 ? <ReadyCard/> : <WaitCard/>}
+                {selected === 2 ? <ReadyCard/> : <WaitCard/>}
               </ul>
             </article>
           </section>
