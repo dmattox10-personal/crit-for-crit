@@ -6,7 +6,8 @@ import store from './redux/store'
 import Main from './components/Main'
 import Arena from './components/Arena'
 
-import './App.css'
+import './css/app.css'
+import './css/grid.css'
 
 function App() {
   return (

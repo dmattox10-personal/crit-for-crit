@@ -14,11 +14,13 @@ const bodyStyles = {
     width: "100%",
     height: "100vh",
     overflowX: "hidden"
-  }
+}
+
 const headerStyles = {
     textAlign: "center",
     color:"#fff",
 }
+
 const ReadyCard = props => {
   return(
     <div>
@@ -31,6 +33,7 @@ const ReadyCard = props => {
     </div>
   )
 }
+
 const WaitCard = props => {
   return(
     <div>
@@ -43,6 +46,7 @@ const WaitCard = props => {
     </div>
   )
 }
+
 class CardContainer extends Component {
 
     componentWillMount() {
