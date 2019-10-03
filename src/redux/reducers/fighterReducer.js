@@ -1,8 +1,9 @@
-import { QUEUE_FIGHTER, SETUP } from '../actions/types'
+import { QUEUE_FIGHTER, SETUP, STAGE_FIGHTERS } from '../actions/types'
 
 const initialState = {
     fighters: [],
-    cards: []
+    cards: [],
+    queue: []
 }
 
 export default function(state = initialState, action) {
@@ -28,6 +29,10 @@ export default function(state = initialState, action) {
                 return card
                 }), 
                 fighters: state.fighters
+            }
+        case STAGE_FIGHTERS:
+            return {
+
             }
     }
 }
